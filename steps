@@ -1,0 +1,27 @@
+docker install
+https://docs.docker.com/desktop/install/ubuntu/
+sudo usermod -aG docker $USER && newgrp docker 
+
+
+kubectl
+https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/
+
+
+https://minikube.sigs.k8s.io/docs/start/
+minikube start --driver=docker
+
+k9s
+brew install k9s
+
+python3
+
+mysql
+brew services start mysql
+brew install mysql
+
+----
+
+create source directory
+create venv
+install python packages:- pylink, jedi for vim
+
